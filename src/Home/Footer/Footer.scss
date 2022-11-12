@@ -1,0 +1,102 @@
+footer {
+    padding: 89px 0 23px;
+    background: #d3d4ed;
+    position: relative;
+    z-index: -1;
+    .footer_image{
+        position: absolute;
+        top: -20px;
+        left: 74px;
+        z-index: -1;
+    }
+    .title {
+        display: flex;
+        justify-content: space-between;
+        h2 {
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 65px;
+            line-height: 58px;
+            color: #222222;
+        }
+        span {
+            font-family: "Open Sans";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 25px;
+            color: #222222;
+            display: inline-block;
+            margin-top: 43px;
+        }
+    }
+    .hr {
+        width: 100%;
+        height: 1px;
+        color: rgba(64, 71, 86, 0.6);
+        margin: 16px 0 11px;
+    }
+    .footer_links {
+        display: flex;
+        justify-content: space-between;
+        .firstUl {
+            display: flex;
+            margin: 0;
+            padding: 0;
+            li {
+                margin-right: 42px;
+                a {
+                    font-family: "Open Sans";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 25px;
+                    color: #404756;
+                    text-decoration: none;
+                }
+            }
+        }
+        .secondUl {
+            li {
+                margin-bottom: 11px;
+                a {
+                    font-family: "Open Sans";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 25px;
+                    color: #404756;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .hr2 {
+        width: 100%;
+        height: 1px;
+        color: rgba(64, 71, 86, 0.6);
+        margin: 45px 0 12px;
+    }
+    .text {
+        display: flex;
+        p {
+            font-family: "Open Sans";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 25px;
+            color: #404756;
+            margin-bottom: 0;
+            margin-right: 78px;
+        }
+        span {
+            font-family: "Open Sans";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 25px;
+            color: #404756;
+        }
+    }
+}

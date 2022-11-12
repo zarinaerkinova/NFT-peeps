@@ -1,0 +1,33 @@
+.ReleasesSection {
+    position: relative;
+    padding: 259px 0 205px;
+    .title{
+        text-align: center;
+    }
+    .img1{
+        position: absolute;
+        top: 442px;
+        right: 361px;
+    }
+    .standing{
+        position: absolute;
+        top: 1037px;
+        right: 200px;
+    }
+    .sitting{
+        position: absolute;
+        top: 2258px;
+        right: 139px;
+        z-index: 1;
+    }
+    .img2{
+        position: absolute;
+        top: 2372px;
+        right: 82px;
+    }
+    .img3{
+        position: absolute;
+        bottom: 242px;
+        right: 141px;
+    }
+}

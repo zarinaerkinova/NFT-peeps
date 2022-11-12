@@ -1,0 +1,38 @@
+header {
+    background-image: url("./bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-bottom: 382px;  
+    .info {
+        text-align: center;
+        padding-top: 89px;
+        span {
+            font-family: "Open Sans";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 25px;
+            color: #222222;
+        }
+        h1 {
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 97px;
+            line-height: 87px;
+            color: #222222;
+            margin-bottom: 0;
+        }
+        p {
+            font-family: "Open Sans";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 25px;
+            color: #404756;
+            text-align: center;
+            width: 429px;
+            margin: 45px auto 29px;
+        }
+    }
+}

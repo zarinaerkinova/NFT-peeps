@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.navbar {
+    --bs-navbar-padding-y: 0;
+}
+
+.container-fluid {
+    padding: 0 65px 0;
+    .logo{
+        margin: 18px 0;
+    }
+    .links{
+        display: flex;
+        align-items: center;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+
+        li {
+            a {
+                font-family: "Open Sans";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 25px;
+                color: #222222;
+                text-decoration: none;
+                margin-right: 30px;
+            }
+        }
+    }
+}

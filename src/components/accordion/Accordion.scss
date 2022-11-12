@@ -1,0 +1,23 @@
+.Accordion{
+    .accordion_item {
+        padding: 31px 0 37px;
+        border-top: 1px solid rgba(64, 71, 86, 0.6);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        p {
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 22px;
+            color: #222222;
+            width: unset;
+            margin: 0;
+        }
+        .plus{
+            width: 17px;
+            height: 17px;
+        }
+    }
+}

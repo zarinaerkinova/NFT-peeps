@@ -1,0 +1,18 @@
+.faq{
+    padding: 212px 0 219px;
+    position: relative;
+    z-index: -1;
+    .title{ 
+        text-align: center;
+        margin-bottom: 76.91px;
+    }
+    .faqImg{
+        position: absolute;
+        top: 121px;
+        left: -11px;
+        z-index: -1;
+    }
+    .Accordion {
+        border-bottom: 1px solid rgba(64, 71, 86, 0.6);
+    }
+}

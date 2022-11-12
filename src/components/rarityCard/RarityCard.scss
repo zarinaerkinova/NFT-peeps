@@ -1,0 +1,32 @@
+h3 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 32px;
+    color: #222222;
+    margin-bottom: 31px;
+}
+.span {
+    display: flex;
+    align-items: center;
+    margin-bottom: 28px;
+    span {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 16px;
+        color: #222222;
+        display: inline-block;
+        margin-right: 32px;
+    }
+}
+p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #404756;
+}

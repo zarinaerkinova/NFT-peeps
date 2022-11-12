@@ -1,0 +1,26 @@
+.teamCard {
+    margin-bottom: 68px;
+    text-align: center;
+    .img_top {
+        margin-bottom: 24.8px;
+    }
+    .info_bottom {
+        span {
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 16px;
+            color: #222222;
+        }
+        h3 {
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 32px;
+            color: #222222;
+            margin-bottom: 5.2px;
+        }
+    }
+}

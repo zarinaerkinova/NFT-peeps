@@ -1,0 +1,55 @@
+.Release {
+    display: flex;
+    .box {
+        padding: 121px 108px 0 84px;
+        width: 529px;
+        height: 475px;
+        background-image: url("./Vector2.png");
+        margin: 108px auto 0;
+        span {
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 16px;
+            color: #222222;
+        }
+        h3 {
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 32px;
+            color: #222222;
+            margin: 9px 0 23px;
+        }
+        p {
+            font-family: "Open Sans";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 25px;
+            color: #404756;
+            width: 336px;
+        }
+    }
+
+    .img {
+        margin-top: 229px;
+        position: relative;
+        span {
+            position: absolute;
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 16px;
+            color: #f7859c;
+            left: 43px;
+            top: 12px;
+        }
+        img{
+            position: absolute;
+        }
+    }
+}
